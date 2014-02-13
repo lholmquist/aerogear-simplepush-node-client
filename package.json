@@ -23,7 +23,6 @@
   "dependencies": {
     "ws": "~0.4.31",
     "node-uuid": "~1.4.1",
-    "sqlite3": "~2.2.0",
     "level": "~0.18.0"
   }
 }

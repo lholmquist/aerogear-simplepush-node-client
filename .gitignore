@@ -1,3 +1,4 @@
 # ignore hidden folders
 .*/
 node_modules
+simple-push-store
