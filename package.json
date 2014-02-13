@@ -1,0 +1,29 @@
+{
+  "name": "aerogear-simplepush-node-client",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "description": "A client for the AeroGear SimplePush server",
+  "author": {
+    "name": "Red Hat, Inc.",
+    "url": "http://aerogear.org"
+  },
+  "maintainers": {
+    "name": "Lucas Holmquist",
+    "email": "lholmqui@redhat.com"
+  },
+  "bugs": {
+    "url": "https://issues.jboss.org/browse/AGSMPLPUSH"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "ws": "~0.4.31",
+    "node-uuid": "~1.4.1",
+    "sqlite3": "~2.2.0",
+    "level": "~0.18.0"
+  }
+}
