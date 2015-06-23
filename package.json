@@ -1,6 +1,6 @@
 {
   "name": "aerogear-simplepush-node-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./index.js",
   "description": "A client for the AeroGear SimplePush server",
   "author": {
@@ -21,8 +21,8 @@
     }
   ],
   "dependencies": {
-    "ws": "~0.4.31",
+    "level": "^1.1.0",
     "node-uuid": "~1.4.1",
-    "level": "~0.18.0"
+    "ws": "~0.4.31"
   }
 }

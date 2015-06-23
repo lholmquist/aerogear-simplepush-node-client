@@ -2,7 +2,7 @@ var client = require('./index'),
     mailEndpoint, mailRequest, pushClient, otherRequest, otherEndpoint;
 
 pushClient = client.SimplePushClient({
-    simplePushServerURL: 'ws://lincolnhawk:7777/simplepush/websocket',
+    simplePushServerURL: 'ws://localhost:7777/simplepush/websocket',
     onConnect: function () {
         console.log('connected');
 
@@ -12,6 +12,8 @@ pushClient = client.SimplePushClient({
 
         mailRequest.onsuccess = function (event) {
             mailEndpoint = event;
+
+            console.log(mailEndpoint);
 
             if (mailEndpoint.pushEndpoint) {
                 console.log('push endpoint url for mail', mailEndpoint.pushEndpoint);
